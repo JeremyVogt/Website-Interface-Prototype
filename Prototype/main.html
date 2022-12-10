@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>SWAN Learning - Home</title>
+    <link rel="stylesheet" type="text/css" href="design.css">
+    <script type="text/javascript">
+        function changeTerm(term){
+            termDiv=document.getElementById(term);
+            document.getElementById('w2014').style.display="none";
+            document.getElementById('f2013').style.display="none";
+            document.getElementById('w2013').style.display="none";
+            document.getElementById('f2012').style.display="none";
+            document.getElementById('w2012').style.display="none";
+            document.getElementById('f2011').style.display="none";            
+            termDiv.style.display="block";
+        }
+    </script>
+  </head>
+
+  <body>
+
+    <div id="mainHeader">
+      <div id="logo"><img src="images/umlogo.gif" alt="University of Manitoba" /></div>
+      <div id="userTools"><p><a class="tools" href="">Settings</a> | <a class="tools" href="login.html">Log Out</a></p></div>
+      <div id="courseTabs">
+        <img src="images/tabc.gif" />
+        <img src="images/tabc.gif" />
+        <img src="images/tabc.gif" />
+      </div>
+        <a href="comp3020/home.html"><div class="courseLabel" style="right: 354px" title="COMP 3020 - Human-Computer Interaction">COMP 3020 - Human-Computer Interaction</div></a>
+        <a href="comp3190/home.html"><div class="courseLabel" style="right: 185px" title="COMP 3190 - Artificial Intelligence">COMP 3190 - Artificial Intelligence</div></a>
+        <a href="comp3440/home.html"><div class="courseLabel" style="right: 16px" title="COMP 3440 - Programming Language Concepts">COMP 3440 - Programming Language Concepts</div></a>
+    </div>
+
+    <div id="contentArea">
+
+      <div class="contentBox" style="width:33%; min-width: 240px;">
+        <div class="content" >
+          <h1>News</h1>
+          <h3 style="display:inline">Midterm Marks Returned</h3><br/>
+          <p style="font-size:8pt; display:inline;">Posted in <a href="comp3190/home.html">COMP 3190</a> on 5 Nov. 2013</p>
+          <p>Your second midterms are all marked. The grades are posted online, and I will be handing back the tests in class on Thursday.</p>
+          <h3 style="display:inline;">Electronic Hand-in Is Up</h3><br/>
+          <p style="font-size:8pt; display:inline;">Posted in <a href="comp3020/home.html">COMP 3020</a> on 20 Oct. 2013</p>
+          <p>Electronic handin is now up for Assignment #2, so you can start submitting your assignments.</p>
+          <br/>
+          <h3 style="display:inline;">No class on Wednesday</h3><br/>
+          <p style="font-size:8pt; display:inline;">Posted in <a href="comp3440/home.html">COMP 3440</a> on 14 Oct. 2013</p>
+          <p>Class is cancelled on Wednesday the 16th. Do not show up unless you want to sit outside a locked door for an hour.</p>
+        </div>
+      </div>
+        
+      <div class="contentBox" style="width:33%;  min-width: 240px;">
+        <div class="content">
+            <div >
+          <h1>Courses</h1>
+          <div id="w2014" style="display:none;">
+            <p><b>Winter 2014</b></p>
+            <p><a href="comp3020/home.html">COMP 3020 - Human-Computer Interaction 1</a></p>
+            <p><a href="comp3190/home.html">COMP 3190 - Artificial Intelligence</a></p>
+            <p><a href="comp3440/home.html">COMP 3440 - Programming Language Concepts</a></p>
+          </div>
+          <div id="f2013" style="display:block;">
+            <p><b>Current Term</b></p>
+            <p><a href="comp3020/home.html">COMP 3020 - Human-Computer Interaction 1</a></p>
+            <p><a href="comp3190/home.html">COMP 3190 - Artificial Intelligence</a></p>
+            <p><a href="comp3440/home.html">COMP 3440 - Programming Language Concepts</a></p>
+          </div>
+          <div id="w2013" style="display:none;">
+            <p><b>Winter 2013</b></p>
+            <p><a href="comp3020/home.html">COMP 3020 - Human-Computer Interaction 1</a></p>
+            <p><a href="comp3190/home.html">COMP 3190 - Artificial Intelligence</a></p>
+            <p><a href="comp3440/home.html">COMP 3440 - Programming Language Concepts</a></p>
+          </div>
+          <div id="f2012" style="display:none;">
+            <p><b>Fall 2012</b></p>
+            <p><a href="comp3020/home.html">COMP 3020 - Human-Computer Interaction 1</a></p>
+            <p><a href="comp3190/home.html">COMP 3190 - Artificial Intelligence</a></p>
+            <p><a href="comp3440/home.html">COMP 3440 - Programming Language Concepts</a></p>
+          </div>
+          <div id="w2012" style="display:none;">
+            <p><b>Winter 2012</b></p>
+            <p><a href="comp3020/home.html">COMP 3020 - Human-Computer Interaction 1</a></p>
+            <p><a href="comp3190/home.html">COMP 3190 - Artificial Intelligence</a></p>
+            <p><a href="comp3440/home.html">COMP 3440 - Programming Language Concepts</a></p>
+          </div>
+          <div id="f2011" style="display:none;">
+            <p><b>Fall 2011</b></p>
+            <p><a href="comp3020/home.html">COMP 3020 - Human-Computer Interaction 1</a></p>
+            <p><a href="comp3190/home.html">COMP 3190 - Artificial Intelligence</a></p>
+            <p><a href="comp3440/home.html">COMP 3440 - Programming Language Concepts</a></p>
+          </div>
+          
+          <br/>
+          
+          <select>
+              <option selected="selected">Select Other Term</option>
+              <option>Winter 2014</option>
+              <option>Fall 2013</option>
+              <option>Winter 2013</option>
+              <option>Fall 2012</option>
+              <option>Winter 2012</option>
+              <option>Fall 2011</option>
+          </select>
+            </div>
+        </div>
+
+
+
+      </div>
+      <div class="contentBox" style="width:33%; min-width: 240px;">
+        <div class="content" style="border:none">
+          <h1>Communication</h1>
+          <h3 style="display:inline;"><a href="comp3020/forumtopic.html">Nested divs won't float properly</a></h3><br/>
+          <p style="font-size:8pt; display:inline;">Posted in <a href="comp3020/forum.html">COMP 3020 forums</a> on 2 Dec. 2013 by Ryan.</p>
+          <p>How about meeting at 3:30 this Thursday?</p>
+          <br/>
+          <h3 style="display:inline;"><a href="">Study group</a></h3><br/>
+          <p style="font-size:8pt; display:inline;">Posted in <a href="comp3190/forum.html">COMP 3190 forums</a> on 17 Nov. 2013 by Jeremy Vogt.</p>
+          <p>How about meeting at 3:30 this Thursday?</p>
+        </div>
+      </div>
+        
+    </div>
+
+  </body>
+
+</html>

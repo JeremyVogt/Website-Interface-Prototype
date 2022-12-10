@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>Forum - COMP 3020</title>
+    <link rel="stylesheet" type="text/css" href="../design.css">
+    <link rel="stylesheet" type="text/css" href="../forum.css">
+  </head>
+
+  <body>
+
+    <div id="mainHeader">
+      <div id="logo"><a href="../main.html" style="border:none"><img src="../images/umlogo.gif" alt="University of Manitoba" /></a></div>
+      <div id="userTools"><p><a class="tools" href="../settings.html">Settings</a> | <a class="tools" href="../login.html">Log Out</a></p><p><a class="tools" href="../main.html">Back to Home</a></p></div>
+      <div id="courseTabs">
+        <img src="../images/tabcs.gif" />
+        <img src="../images/tabc.gif" />
+        <img src="../images/tabc.gif" />
+      </div>
+      <a href="../comp3020/home.html"><div class="courseLabel" style="right: 354px" title="COMP 3020 - Human-Computer Interaction">COMP 3020 - Human-Computer Interaction</div></a>
+      <a href="../comp3190/home.html"><div class="courseLabel" style="right: 185px" title="COMP 3190 - Artificial Intelligence">COMP 3190 - Artificial Intelligence</div></a>
+      <a href="../comp3440/home.html"><div class="courseLabel" style="right: 16px" title="COMP 3440 - Programming Language Concepts">COMP 3440 - Programming Language Concepts</div></a>
+    </div>
+
+    <div id="courseHeader">
+      <p id="courseName">COMP 3020 - Human-Computer Interaction</p>
+      <div id="featureTabs">
+        <img src="../images/tabf.gif" />
+        <img src="../images/tabf.gif" />
+        <img src="../images/tabf.gif" />
+        <img src="../images/tabf.gif" />
+        <img src="../images/tabf.gif" />
+        <img src="../images/tabfs.gif" />
+      </div>
+
+    <a href="home.html"><div class="featureLabel" style="left: 17px">Home</div></a>
+    <a href="notes.html"><div class="featureLabel" style="left: 141px">Notes</div></a>
+    <a href="assignments.html"><div class="featureLabel" style="left: 265px">Assignments</div></a>
+    <a href="grades.html"><div class="featureLabel" style="left: 389px">Grades</div></a>
+    <a href="resources.html"><div class="featureLabel" style="left: 513px">Resources</div></a>
+    <a href="forum.html"><div class="featureLabel" style="left: 637px">Forum</div> </a>
+    </div>
+
+    <div id="contentArea">
+
+      <div id="forum">
+
+        <h1 id="topic">Nested divs won't float properly</h1>
+
+        <div class="original">
+          <div class="replyInfo">
+            <img src="../images/avatar1.jpg">
+            <span class="userName">Charlotte</span><br>
+            <span class="userRole">Student</span>
+          </div>
+          <div class="replyBody">
+            <span class="bodyText">I want to include a div inside a larger div, but I can't get the outer div to fully wrap around the inner div. I've tried adjusting the float and moving the padding attribute to the text itself, but the only way I could get it to work is by giving the outer div a fixed height. Now obviously this isn't a good permanent solution, so what can I do to get it to work properly?</span>
+          </div>
+        </div>
+
+        <div class="reply">
+          <div class="replyHeader">
+            <span class="headerText">Logarithms?</span>
+          </div>
+          <div class="replyInfo">
+            <img src="../images/avatar2.jpg">
+            <span class="userName">Shauna</span><br>
+            <span class="userRole">Student</span>
+          </div>
+          <div class="replyBody">
+            <span class="bodyText">Have you tried logarithms?</span>
+          </div>
+        </div>
+
+        <div class="reply" style="margin-left:45px">
+          <div class="replyHeader">
+            <span class="headerText">Re: Logarithms?</span>
+          </div>
+          <div class="replyInfo">
+            <img src="../images/avatar1.jpg">
+            <span class="userName">Charlotte</span><br>
+            <span class="userRole">Student</span>
+          </div>
+          <div class="replyBody">
+            <span class="bodyText">I don't see how that would help, Shauna.</span>
+          </div>
+        </div>
+
+        <div class="reply">
+          <div class="replyHeader">
+            <span class="headerText">Re: Nested divs won't float properly</span>
+          </div>
+          <div class="replyInfo">
+            <img src="../images/avatar3.jpg">
+            <span class="userName">Mildred</span><br>
+            <span class="userRole">Student</span>
+          </div>
+          <div class="replyBody">
+            <span class="bodyText">I came across this once, my inner divs where set to absolute positioning. Then they're removed from the "flow" of the page.</span>
+          </div>
+        </div>
+
+        <div class="reply" style="margin-left: 45px">
+          <div class="replyHeader">
+            <span class="headerText">Re: Re: Nested divs won't float properly</span>
+          </div>
+          <div class="replyInfo">
+            <img src="../images/avatar1.jpg">
+            <span class="userName">Charlotte</span><br>
+            <span class="userRole">Student</span>
+          </div>
+          <div class="replyBody">
+            <span class="bodyText">Yeah, I checked that, and there seems to be a different problem that's making it act all funky.</span>
+          </div>
+        </div>
+
+        <div class="reply" style="margin-left: 45px">
+          <div class="replyHeader">
+            <span class="headerText">Check stackoverflow</span>
+          </div>
+          <div class="replyInfo">
+            <img src="../images/avatar4.jpg">
+            <span class="userName">Ryan</span><br>
+            <span class="userRole">Instructor</span>
+          </div>
+          <div class="replyBody">
+            <span class="bodyText">You could try checking stackoverflow. They've got all sorts of answers to questions about HTML.</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </body>
+
+</html>

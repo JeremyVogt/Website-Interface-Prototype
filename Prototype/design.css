@@ -1,0 +1,101 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0px 0px 0px 0px;
+	height:100%;
+	min-height:100%;
+}
+#container {
+	min-height:100%;
+	position:relative;
+}
+
+#mainHeader {
+    position: relative; width: 100%; min-width: 741px; height: 91px; float: left;
+    color: #000000;
+    background-color: #f2a900;
+}
+
+#logo {
+    position: absolute; top: 0 px; left: 0 px;
+}
+
+#userTools {
+    position: absolute; top: 0px; right: 12px;
+    font-size: 8pt;
+    text-align: right;
+}
+
+a.tools:link {color: #000000}
+a.tools:visited {color: #000000}
+a.tools:hover {color: #000000}
+a.tools:active {color: #000000}
+
+#courseTabs {
+    position: absolute; top: 58px; right: 0px;
+}
+
+.courseLabel {
+    font-size: 10pt; font-weight: bold; color: #ffffff;
+    position: absolute; top: 66px;
+    width: 132px; height: 25px;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+#courseHeader {
+    width:100%; min-width: 741px; float: left;
+    background-color: #653819;
+}
+
+#courseName {
+    padding: 0px 12px 0px 12px;
+    font-size: 16pt;
+    color: #ffffff;
+}
+
+.featureLabel {
+    font-size: 10pt; font-weight: bold; color:#000000;   
+    position: absolute; top: 168px;
+    width: 87px; height: 25px;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+
+#featureTabs {
+    position: relative; bottom: -4px; left: 0px;
+}
+
+#contentArea {
+    width: 100%; min-width: 741px; float:left;
+	
+}
+
+.contentBox {
+    width: 50%; min-width: 360px; float: left;    
+}
+
+.content {
+    font-size: 10pt;
+    margin: 30px 0px;
+    padding: 0px 15px;
+    border-right: solid 2px;
+    
+}
+
+td {
+    height: 30px; padding-left: 5px;
+}
+
+#footer {
+    width: 100%; min-width: 741px; height: 77px; float:left;
+	position:absolute; bottom:0px;
+    bottom: 0px;
+    text-align: center;
+    font-size: 8pt;
+    color: #ffffff;
+    background-color: #653819;
+}

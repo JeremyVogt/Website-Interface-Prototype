@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="design.css">
+    <script type="text/javascript">
+        function validate(){
+            var loginform = document.forms['loginForm'];
+            
+            var message = "";
+            
+            if(loginform.elements['username'].value==="")
+                message+="Please fill in your username.\n";
+            
+            if(loginform.elements['password'].value==="")
+                message+="Please fill in your password.";
+            
+            if(message==="")
+                document.forms['loginForm'].submit();
+            else
+                alert(message);
+        }
+        
+    </script>
+    
+    
+  </head>
+
+  <body>
+
+    <div id="mainHeader">
+      <div id="logo"><img src="images/umlogo.gif" /></div>      
+    </div>
+
+
+    <div id="contentArea">
+
+      <div class="contentBox">
+      	<div class="content">
+            <div>                
+                <form id="loginForm" action="main.html">
+                    <h1>Log In</h1>
+                    <p>Username: <input id="username" type="text" /></p>
+                    <p>Password: <input id="password" type="password" /></p>
+                    <input type="button" value="Log In" onclick="javascript:validate();"/>
+                </form>
+      		<br/>
+                <a href="">Forgot your password?</a>
+            </div>
+      	</div>
+
+
+
+      </div>
+      <div class="contentBox">
+		<div class="content" style="border:none">
+			<h1>University News</h1>
+                        <h3 style="display:inline">Strike Information - Agreement reached, classes continue</h3><br/><h4 style="display:inline;">Oct. 22</h4>
+                        <p>The University of Manitoba and the University of Manitoba Faculty Association (UMFA) reached a settlement for a new collective agreement through mediation late on Monday night.<br>As a result, classes continue as scheduled. <br/><a href="http://umanitoba.ca/strikeinfo/">More...</a></p>
+                        
+		</div>
+      </div>
+        
+    </div>
+
+  </body>
+
+</html>
